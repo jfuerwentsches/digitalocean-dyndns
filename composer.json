@@ -1,0 +1,12 @@
+{
+    "name": "jfuerwentsches/digitalocean-dyndns",
+    "description": "Simple script consuming Digital Ocean's API to update an A-Record with the floating IP of the host.",
+    "require": {
+        "toin0u/digitalocean-v2": "~2.0",
+        "kriswallsmith/buzz": "^0.15.0",
+        "zendframework/zend-log": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {"jfuerwentsches\\digitaloceanDyndns\\": "src/"}
+    }
+}
